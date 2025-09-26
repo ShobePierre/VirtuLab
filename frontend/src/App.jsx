@@ -1,12 +1,12 @@
 import  { useState } from 'react'
-import Layout from "./web_components/Layout";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Index from './pages/Index.jsx';
 
-function Home() {
+function App() {
   return (
-    <Layout>
-      
-    </Layout>
+    <Index>
+    </Index>
   );
 }
 
-export default Home;
+export default App;

@@ -8,7 +8,7 @@ import virtulab from '../assets/Virtulab.svg';
 
 
 function Header() {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
 
   return (
     <div>
@@ -23,12 +23,14 @@ function Header() {
           <h1 className="text-2xl font-bold">VirtuLab</h1>
         </div>
 
+      {/*
         <div className="ml-auto flex flex-col items-center">
           <div>
             <AccountCircleIcon sx={{fontSize: 25}}/>
           </div>
           <h1 className="font-bold">User</h1>
         </div>
+      */}
       </header>
   
       <div> 
